@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/* Header Container */
+#header-container {
+    background: #6943FF;
+    margin: 0;
+    padding: 40px 0; /* Add spacing inside the header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title Styling */
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Input and Button Container */
+#input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Fixed height for input section */
+}
+
+/* Input Styling */
+input {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    width: 120px;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+
+/* Remove arrows for number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Button Styling */
+button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Conversion Results Container */
+#conversions-container {
+    background: #1F2937;
+    color: white;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+#conversions-container h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#conversions-container p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Conversion Results Container */
+#conversions-container {
+    background: #1F2937;
+    color: white;
+    padding: 40px 20px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual Conversion Card */
+.conversion-card {
+    background: #2D3748;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Title */
+.conversion-card h3 {
+    font-size: 1.5rem;
+    color: #D1C4E9; /* Light purple for the title */
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+/* Card Text */
+.conversion-card p {
+    font-size: 1rem;
+    color: #E5E7EB; /* Light gray for the text */
+    margin: 0;
+}
